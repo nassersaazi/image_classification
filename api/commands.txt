@@ -7,3 +7,5 @@ docker logs flask_api
 docker-compose up -d 
 
 docker image ls       
+
+docker exec -it ml_models "bash"
