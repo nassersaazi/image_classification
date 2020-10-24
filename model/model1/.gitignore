@@ -1,0 +1,10 @@
+*.zip
+*.hdf5
+*.ipynb_checkpoints
+extraimages/
+train/
+test/
+validation/
+model_data/
+.vscode/
+__pycache__

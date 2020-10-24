@@ -1,0 +1,14 @@
+X_MIN=0 
+X_MAX=255
+ENCODING_ISO_8859_1="ISO-8859-1"
+HTTP_200_OK=200
+HTTP_400_BAD_REQUEST=400
+IMAGE_WIDTH_RESIZE=153
+IMAGE_HEIGHT_RESIZE=102
+IMAGE_CLASSIFICATION_RESULT_1={"image type": "1"}
+IMAGE_CLASSIFICATION_RESULT_0={"image type": "0"}
+IMAGE_TYPE_1="image_type_1.tif"
+IMAGE_TYPE_0="image_type_0.tif"
+URL_IMAGE_CLASSIFICATION_BASE64_ENCODING = "http://localhost:5000/api/v1.0/image_classification_base64_encoding"
+URL_IMAGE_CLASSIFICATION_BASE64_ENCODING_JSON = "http://localhost:5000/api/v1.0/image_classification_base64_encoding_json"          
+HEADERS_IMAGE_TIF="image/tif"

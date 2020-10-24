@@ -1,0 +1,6 @@
+flask
+flask_restful
+flask_httpauth
+numpy
+opencv-python==3.1.0.4
+pandas

@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../frontend/images/cassava.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.container{
+    flex-grow: 1;
+}
+#navlinks{
+    font-size: 20px;
+}
+ .inputs{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.login{
+    padding-bottom: 5%;
+}
+
+
+h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 250px;
+}
+p ,a {
+    font-size: 17px;
+    color: white;
+}
+
+h3{
+    font-size: 25px;
+    color: white;
+    
+}
+
+.col-md-5{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background: rgb(0,0,0,0.4);
+    border-radius:15px 15px 15px 15px;
+}
+
+#main-section{
+    padding-top: 5%;
+}
+
+.label{
+    font-weight: normal;
+    margin-top: 15px;
+    color: white;
+    font-size: 19px;
+}
+.form-control{
+    background: transparent;
+    border-radius: 10px 10px 10px 10px;
+    border: 0px;
+    border-top: 1px solid #5FA717;
+    border-bottom: 1px solid #5FA717;
+    border-left: 1px solid #5FA717;
+    border-right: 1px solid #5FA717;
+    font-size: 18px;
+    margin-top: 15px;
+    color: white;
+    height: 40px;
+}
+input[type="checkbox"]{
+    margin-top: 15px;
+    width: 15px;
+    height: 15px;
+}
+small{
+    font-size: 18px;
+    color: white;
+}
+input[type="radio"]{
+    margin-top: 22px;
+}
+option{
+    color: gray;
+}
+.btn-info{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #5FA717;
+    border-color: #5FA717;
+}
+
+.btn:hover {
+    background-color: #2180d8;
+  }
+.btn-warning{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.text-center{
+    width:450px;
+    
+    margin:auto;
+    color:#ffffff;
+    padding-top: 15px;
+    border-radius:15px 15px 0px 0px;
+}
+
+.footer {
+  
+    /*
+    font-weight: bold;
+    justify-content: space-between;
+    
+    margin-bottom: 0%; */
+   position: fixed;
+   bottom:0;
+   width:100%;
+   display: flex;
+   padding: 10px 10px 10px 10px;
+   background: rgb(0,0,0,0.4);
+  }
+

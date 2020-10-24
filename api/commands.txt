@@ -1,0 +1,9 @@
+docker build -t todo-api:latest .
+
+docker container ps -a
+
+docker logs flask_api
+
+docker-compose up -d 
+
+docker image ls       

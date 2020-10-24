@@ -1,0 +1,9 @@
+version: "3"
+services:
+    api:
+      container_name: flask_api
+      image: todo-api:latest
+      volumes:
+          - C:\Users\nasser\Documents\personal\EndJahrProjekt\api\todo-api:/app
+      ports:
+        - "5000:5000"
