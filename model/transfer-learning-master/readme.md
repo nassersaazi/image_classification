@@ -1,4 +1,4 @@
-# Transfer Learning - Leverage a pre-trained model to speed up training for cassava disease image classification
+# Supervised learning for cassava disease image classification
 <div style="text-align:right">By Nasser Saazi</div>
 
 ## Problem statement
