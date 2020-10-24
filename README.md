@@ -7,7 +7,7 @@ Cassava is the third largest source of carbohydrates for human food in the world
 Novel methods of cassava disease detection are needed to support improved control which will prevent this crisis. Image recognition offers both a cost effective and scalable technology for disease detection.
 
 
-<img src="test.jpg" width="400px" align="middle">
+<img src="model/transfer-learning-master/test.jpg" width="400px" align="middle">
 
 The prime aim of this project is to build a model that can classify multiple input leaf images of a plant as healthy or diseased. If the plant leaf gives positive results of a disease, then the type of a disease is to be further determined as well. In our project we focus only on multiple detecting and classifying cassava leaves suffering from some common cassava diseases. 
 
