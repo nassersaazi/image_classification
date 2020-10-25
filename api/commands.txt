@@ -6,6 +6,8 @@ docker logs flask_api
 
 docker-compose up -d 
 
-docker image ls       
+docker image ls      
+
+docker rmi $(docker images -q --filter "dangling=true") 
 
 docker exec -it ml_models "bash"
