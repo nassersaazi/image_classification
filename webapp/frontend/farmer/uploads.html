@@ -4,7 +4,17 @@
 <title>HarvestMore</title>
     <link rel="stylesheet" href="../css/Bootstrap.css">
 	<!-- <link rel="stylesheet" href="js/Bootstrap.js">   -->
-	<link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css">
+    <!-- Icons font CSS-->
+    <!-- <link href="../css/material-design-iconic-font.min.css" rel="stylesheet" media="all"> -->
+    <!-- <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all"> -->
+    
+    <!-- Vendor CSS-->
+    <!-- <link href="..css/select2.min.css" rel="stylesheet" media="all"> -->
+    <link href="../datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <!-- <link href="../css/main.css" rel="stylesheet" media="all"> -->
 </head>
 <body>
 	<div class ="container ">
@@ -38,28 +48,122 @@
         </div>
 		<!-- Navbar Stop -->
 		<div class="row">
-            <div class="col-md-3">
-
-            </div>
-			<div class="col-md-6" id="main-section">
-				<h1 class="text-center">Cassava Image Classification System</h1>
-				<p class="text-center">
-                    The primary benefit the Single-Responsibility Principle gives 
-                    you is high-cohesion, low-coupling code. Cohesion refers to 
-                    the degree with which elements of code belong together. 
-                </p>
-				<p class="text-center">Coupling is the manner of independence between modules of a programming system. 
-					This means that high coupling means that modules are more dependent upon one another, 
-                    and low coupling means they are less dependent.</p>
-                    <div class="row">
-					
-                        <div class="col-md-12 login">
-                            <a href="#"><div class="btn btn-info btn-block">UPLOAD IMAGE</div></a>
-                        </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="row">
+                    <label class="label col-md-2 control-label">Start Date</label>
+                    <div class="col-md-2">
+                        <input class="form-control input--style-2 js-datepicker" type="text" placeholder="Start Date" >
+                    </div>
+                    <label class="label col-md-2 control-label">End Date</label>
+                    <div class="col-md-2">
+                        <input class="form-control  input--style-2 js-datepicker" type="text" placeholder="End Date" >
+                    </div>
+                    <div class="col-md-2 login">
+						<a href="#"><div class="btn btn-info btn-block">DOWNLOAD PDF</div></a>
+					</div>
                     
+                </div>
+                <div class="row">
+                    <div class="container-fluid tm-container-content tm-mt-60">
+                        <div class="row mb-4">
+                            <h2 class="col-6 tm-text-primary">
+                                Latest Uploads
+                            </h2>
+                            
+                        </div>
+                        <div class="row tm-mb-90 tm-gallery">
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                                <figure class="effect-ming tm-video-item">
+                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
+                                                      
+                                </figure>
+                                <div class="d-flex justify-content-between tm-text-gray">
+                                    <span class="tm-text-gray-light">18 Oct 2020</span>
+                                    <span>9,906 views</span>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                                <figure class="effect-ming tm-video-item">
+                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
+                                                        
+                                </figure>
+                                <div class="d-flex justify-content-between tm-text-gray">
+                                    <span class="tm-text-gray-light">14 Aug 2020</span>
+                                    <span>118,006 views</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                                <figure class="effect-ming tm-video-item">
+                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
+                                                       
+                                </figure>
+                                <div class="d-flex justify-content-between tm-text-gray">
+                                    <span class="tm-text-gray-light">9 Aug 2020</span>
+                                    <span>121,300 views</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                                <figure class="effect-ming tm-video-item">
+                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
+                                                        
+                                </figure>
+                                <div class="d-flex justify-content-between tm-text-gray">
+                                    <span class="tm-text-gray-light">3 Aug 2020</span>
+                                    <span>21,204 views</span>
+                                </div>
+                            </div>  
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                                <figure class="effect-ming tm-video-item">
+                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
+                                                        
+                                </figure>
+                                <div class="d-flex justify-content-between tm-text-gray">
+                                    <span class="tm-text-gray-light">3 Aug 2020</span>
+                                    <span>21,204 views</span>
+                                </div>
+                            </div> 
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                                <figure class="effect-ming tm-video-item">
+                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
+                                                       
+                                </figure>
+                                <div class="d-flex justify-content-between tm-text-gray">
+                                    <span class="tm-text-gray-light">3 Aug 2020</span>
+                                    <span>21,204 views</span>
+                                </div>
+                            </div> 
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                                <figure class="effect-ming tm-video-item">
+                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
+                                                      
+                                </figure>
+                                <div class="d-flex justify-content-between tm-text-gray">
+                                    <span class="tm-text-gray-light">3 Aug 2020</span>
+                                    <span>21,204 views</span>
+                                </div>
+                            </div> 
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                                <figure class="effect-ming tm-video-item">
+                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
+                                                      
+                                </figure>
+                                <div >
+                                    <span >3 Aug 2020</span>
+                                    <span>21,204 views</span>
+                                </div>
+                            </div> 
+                                   
+                        </div> <!-- row -->
+                        
                     </div> 
-                    <h1 class="text-center"><a href="#">Become an annotator</a></h1>   
+                </div>
             </div>
+
+            
+             
+        </div>
             
         </div>
         
@@ -93,5 +197,14 @@
   
   </footer>
   <!-- Footer -->
+  <!-- Jquery JS-->
+  <script src="../jquery/jquery.min.js"></script>
+  <!-- Vendor JS-->
+  <!-- <script src="vendor/select2/select2.min.js"></script> -->
+  <script src="../datepicker/moment.min.js"></script>
+  <script src="../datepicker/daterangepicker.js"></script>
+
+  <!-- Main JS-->
+  <script src="../js/global.js"></script>
 </body>
 </html>

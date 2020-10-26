@@ -30,7 +30,7 @@ h1{
     color: white;
     margin-top: 250px;
 }
-p ,a {
+p ,a,h2,span {
     font-size: 17px;
     color: white;
 }
