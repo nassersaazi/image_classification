@@ -4,6 +4,10 @@ model/model1
 model/model2
 model/model3
 model/model4
+model/crime.ipynb
+model/transfer-learning-master/SFCrime
+model/transfer-learning-master/finalproject DB
+sem2
 *.ipynb_checkpoints
 
 #Visual Studio Files

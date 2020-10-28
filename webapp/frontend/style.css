@@ -93,9 +93,14 @@ option{
     background-color: #5FA717;
     border-color: #5FA717;
 }
+.btn-danger{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
 
 .btn:hover {
-    background-color: #2180d8;
+    background-color: #836928;
   }
 .btn-warning{
     margin-top: 20px;
