@@ -4,8 +4,10 @@ Flask-RESTful extension."""
 from flask import Flask, jsonify, abort, make_response,request,url_for
 from flask_restful import Api, Resource, reqparse, fields, marshal
 from flask_httpauth import HTTPBasicAuth
+from subprocess import Popen, PIPE
 import sys
 import json
+import ast
 import config
 import api_sub_class
 
@@ -18,15 +20,21 @@ app = Flask(__name__)
 tasks = [
     {
         'id': 1,
-        'title': u'Buy confectioneries',
-        'description': u'Chocolate, Cheese, Pizza, Fruit, Tylenol', 
-        'done': False
+        'image name': u'test6.jpg',
+        'cgm'       : u'0.95931554', 
+        'cbb'       : u'0.022979213',
+        'cmd'       : u'0.015801422',
+        'cbsd '     : u'0.0017724097',
+        'healthy '  : u'0.00013151298'
     },
     {
         'id': 2,
-        'title': u'Learn Python',
-        'description': u'Need to find a good Python tutorial on the web', 
-        'done': False
+        'image name': u'test5.jpg',
+        'cbsd '     : u'0.7123589',
+        'cgm'       : u'0.006787801', 
+        'cbb'       : u'0.22279346',
+        'cmd'       : u'0.019059043',
+        'healthy '  : u'0.03900078'
     }
 ]
 
@@ -39,10 +47,23 @@ def make_public_task(task):
             new_task[field] = task[field]
     return new_task
 
+def runProcess(cmd):
+    output = Popen([cmd],stdout=PIPE,shell=True)
+    out, err = output.communicate()
+    y = json.dumps(out.decode("utf-8"))
+    my_dict = ast.literal_eval(y)
+    return my_dict
 
 @app.route('/todo/api/v1.0/tasks', methods=['GET'])
 def get_tasks():
     return jsonify({'tasks': [make_public_task(task) for task in tasks]})
+
+@app.route('/todo/api/v1.0/images/<string:image>', methods=['GET'])
+def get_classification(image):
+    classification = runProcess('./predict.bash ' + image + '.jpg')
+    if len(classification) == 0:
+        abort(404)
+    return classification
 
 @app.route('/todo/api/v1.0/tasks', methods=['POST'])
 def create_task():
@@ -64,6 +85,7 @@ def get_task(task_id):
     if len(task) == 0:
         abort(404)
     return jsonify({'task': task[0]})
+
 
 
 @app.errorhandler(404)
