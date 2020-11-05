@@ -1,13 +1,13 @@
 dataset
 api/todo-api/data
-model/transfer-learning-master/data
+model/model/data
 model/model1
 model/model2
 model/model3
 model/model4
 model/crime.ipynb
-model/transfer-learning-master/SFCrime
-model/transfer-learning-master/finalproject DB
+model/model/SFCrime
+model/model/finalproject DB
 sem2
 *.ipynb_checkpoints
 
