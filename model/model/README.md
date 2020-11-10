@@ -11,7 +11,7 @@ The prime aim of this project is to build a model that can classify multiple inp
 
 <hr>
 
-## Components
+
 
 # 1. Concept
 It takes significant machine resources and time to train the model especially when there are so many layers.  For example, Inception-v3 has 42 layers [1].  However, there is a way to short circuit the training process. This is called transfer learning.

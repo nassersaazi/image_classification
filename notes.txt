@@ -1,0 +1,52 @@
+Building web client
+
+Stories
+
+0. System 
+
+-System saves images uploaded by farmers that are later labelled appropriately by annotators
+-System authenticates users
+-System returns classification results
+-System sends sms notifications of payments to annotators
+
+1. Farmer
+
+-Farmer registers to the system	
+-Farmer logs in to system,uploads image,gets classification
+-Farmer checks his previous uploaded images with their respective classifications,dates uploaded
+-Farmer receives notifications about disease prevalence and upcoming events in their area.
+-Farmer logs out
+
+2.Admin
+
+-Admin logs in to system,adds new user (official or annotator) to the  system
+-Admin approves pending annotation payments
+-Admin deactivates users
+-Admin logs out of system
+Qn: How do we know the annotator is doing his job right?
+
+3. Annotator
+
+-Annotator logs onto system
+-Annotator views pending unlabelled images and labels the images according to their respective classes(could label images according to the 5 
+ classes ,anything else is labelled as bad data)
+-Annotator views their labelled images and corresponding payment status 
+Note: Ask Ahmed on the details of the EasyPay payment implementation
+      Only annotators should have accounts ,plus the system account
+
+4. Govt Official
+
+- GO views reports on prevalence of diseases in different areas at given times
+- GO sends out sms notifications on disease prevalence in different areas and upcoming events
+Note: Use portal postpaid for sms
+
+Database Requirements
+
+1. Tables
+
+-Users(Id,Name,Role,CreateDate,CreatedBy,Area[nullable])
+-UserRoles(Id,Role,Description)
+-Images(Id,Path,Uploader,UploadDate,Labelled[boolean],Label,LabelledBy)
+-Accounts(Id[unique],AccountNumber[unique],Owner,Balance)
+-Notification(Id,Message,DateSent)
+-Event(Id,Area,Date,Title,Description)
