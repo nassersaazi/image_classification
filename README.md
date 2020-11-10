@@ -26,7 +26,7 @@ This is used as a bridge for the web and mobile apps to the machine learning mod
 
 This is the web application that will be used by different stakeholders to interact with the system. More deatails about it are in the webapp folder
 
-- [] To be completed soon
+- [ ] To be completed soon
 
 # 4. Mobile App
 
