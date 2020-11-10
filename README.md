@@ -16,7 +16,7 @@ The prime aim of this project is to build a model that can classify multiple inp
 # 1. Model
 
 This is the supervised learning algorithm that is being used to train the image data. More details about this are in the model folder
-[+] Completed
+` Completed`
 
 # 2. Api
 
