@@ -26,9 +26,12 @@ This is used as a bridge for the web and mobile apps to the machine learning mod
 
 This is the web application that will be used by different stakeholders to interact with the system. More deatails about it are in the webapp folder
 
+- [] To be completed soon
+
 # 4. Mobile App
 
-This is the mobile app that farmers will use to interact with the system. The source code for this is in the mobile branch of this repository 
+This is the mobile app that farmers will use to interact with the system. The source code for this is in the mobile branch of this repository
+
 - [x] Completed
 
 # 5. Database
