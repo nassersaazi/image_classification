@@ -28,8 +28,7 @@ This is the web application that will be used by different stakeholders to inter
 
 # 4. Mobile App
 
-This is the mobile app that farmers will use to interact with the system. The source code for this is in the mobile branch of this repository
-[x] Completed
+This is the mobile app that farmers will use to interact with the system. The source code for this is in the mobile branch of this repository -[x] Completed
 
 # 5. Database
 
