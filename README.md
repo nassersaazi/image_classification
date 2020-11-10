@@ -1,6 +1,6 @@
 # Cassava Disease Image Classification System
 
-<div style="text-align:right">By Nasser Saazi</div>
+> By Nasser Saazi
 
 ## Problem statement
 
@@ -37,4 +37,5 @@ This is the mobile app that farmers will use to interact with the system. The so
 # 5. Database
 
 This is the store of user information for every user of the system
+
 - [ ] Currently working on this
