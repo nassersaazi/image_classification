@@ -37,7 +37,7 @@ Note: Ask Ahmed on the details of the EasyPay payment implementation
 4. Govt Official
 
 - GO views reports on prevalence of diseases in different areas at given times
-- GO sends out sms notifications on disease prevalence in different areas and upcoming events
+- GO sends out sms notifications on disease prevalence in different areas and can create events
 Note: Use portal postpaid for sms
 
 Database Requirements
