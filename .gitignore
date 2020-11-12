@@ -12,6 +12,9 @@ sem2
 *.ipynb_checkpoints
 webapp/mvc
 webapp/aspx/ImageClassification
+webapp/CassavaDiseaseImageClassificationSystem
+webapp/random.html
+webapp/CICS/.vs/CICS/v15/Server/sqlite3
 
 #Visual Studio Files
 [Oo]bj
