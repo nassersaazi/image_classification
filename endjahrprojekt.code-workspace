@@ -1,14 +1,14 @@
 {
-	"folders": [
-		{
-			"path": "webapp\\frontend"
-		},
-		{
-			"path": "api"
-		},
-		{
-			"path": "model"
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "webapp\\frontend"
+    },
+    {
+      "path": "api"
+    },
+    {
+      "path": "model"
+    }
+  ],
+  "settings": {}
 }

@@ -50,3 +50,20 @@ Database Requirements
 -Accounts(Id[unique],AccountNumber[unique],Owner,Balance)
 -Notification(Id,Message,DateSent)
 -Event(Id,Area,Date,Title,Description)
+
+13.11.2020
+create session
+use session to track user roles 
+
+implement session tracking
+implement registration functionality
+implement login functionality
+populate database with test data
+implement payment
+
+
+
+//TODO: 
+Add user functionality 
+Add user role functionality
+Add deactivate user functionality
