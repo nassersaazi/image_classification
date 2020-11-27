@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="deactivateUser.aspx.cs" Inherits="CICS.admin.deactivateUser" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeactivateUser.aspx.cs" Inherits="CICS.admin.deactivateUser" %>
 
 <!DOCTYPE html>
 

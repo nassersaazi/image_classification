@@ -81,7 +81,7 @@
         </div>
         
     </div>
-    <!-- Footer -->
+<%--    <!-- Footer -->
 <footer  class="footer">
 
     <!-- Footer Elements -->
@@ -109,7 +109,7 @@
     <!-- Copyright -->
   
   </footer>
-  <!-- Footer -->
+  <!-- Footer -->--%>
     </form>
 </body>
 </html>

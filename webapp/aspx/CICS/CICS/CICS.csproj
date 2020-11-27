@@ -161,22 +161,23 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="css\" />
-    <Folder Include="datepicker\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="admin\addUser.aspx" />
-    <Content Include="admin\deactivateUser.aspx" />
+    <Content Include="admin\AddUser.aspx" />
+    <Content Include="admin\DeactivateUser.aspx" />
     <Content Include="admin\Index.aspx" />
+    <Content Include="admin\Login.aspx" />
     <Content Include="annotator\Annotations.aspx" />
     <Content Include="annotator\Index.aspx" />
     <Content Include="annotator\Login.aspx" />
     <Content Include="annotator\Notifications.aspx" />
     <Content Include="annotator\Register.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Content\all.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\fonts.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\style.css" />
     <Content Include="farmer\Classify.aspx" />
@@ -247,19 +248,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="admin\addUser.aspx.cs">
-      <DependentUpon>addUser.aspx</DependentUpon>
+    <Compile Include="admin\AddUser.aspx.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\addUser.aspx.designer.cs">
-      <DependentUpon>addUser.aspx</DependentUpon>
+    <Compile Include="admin\AddUser.aspx.designer.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\deactivateUser.aspx.cs">
-      <DependentUpon>deactivateUser.aspx</DependentUpon>
+    <Compile Include="admin\DeactivateUser.aspx.cs">
+      <DependentUpon>DeactivateUser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\deactivateUser.aspx.designer.cs">
-      <DependentUpon>deactivateUser.aspx</DependentUpon>
+    <Compile Include="admin\DeactivateUser.aspx.designer.cs">
+      <DependentUpon>DeactivateUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -267,6 +268,13 @@
     </Compile>
     <Compile Include="admin\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="annotator\Annotations.aspx.cs">
       <DependentUpon>Annotations.aspx</DependentUpon>

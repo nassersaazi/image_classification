@@ -67,3 +67,10 @@ implement payment
 Add user functionality 
 Add user role functionality
 Add deactivate user functionality
+
+
+26.11.2020
+//TODO:
+-Work on the frontend interface
+	:- Adjust the interface for all the roles(admin,farmer,official and annotator) to the final appearance
+	:- Link the different buttons to each other
