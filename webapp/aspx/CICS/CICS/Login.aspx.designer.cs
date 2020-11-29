@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CICS.admin {
+namespace CICS {
     
     
-    public partial class Index {
+    public partial class Logic {
     }
 }

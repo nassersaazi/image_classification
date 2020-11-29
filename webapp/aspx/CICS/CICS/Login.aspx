@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Admin Login Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="CICS.admin.Login" %>
-
+﻿<%@ Page Title="Login Page" Language="C#"  MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="CICS.Logic" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
    
@@ -7,21 +6,9 @@
     <!------------- Main site section --------------------->
 
     <main>
-
-        <!-------------- Site title  ----------------->
-        <section class="site-title">
-           <div class="description">
-			
-				<h1 >Cassava Image Classification System</h1>
-				<p >
-                    The primary benefit the Single-Responsibility Principle gives 
-                    you is high-cohesion, low-coupling code. 
-                </p>
-                <p>Cohesion refers to the degree with which elements of code belong together. </p>
-				<p>Coupling is the manner of independence between modules of a programming system. 
-					</p>
-               <p>This means that high coupling means that modules are more dependent upon one another.</p>
-			</div>
+      <!-------------- Site title  ----------------->
+        <section class="site-title" id="login">
+          
 			<div class="login">
 				
 				<!-- close -->
@@ -47,7 +34,7 @@
                         </div>
                     </div>
                     <div >
-						<button class="btn">LOGIN</button>
+						<a class="btn" href="admin/Index.aspx">Login</a>
 					</div>
                 </div>
               
@@ -55,8 +42,6 @@
 			</div>
         </section>
         <!---------x--- Site title ---------x--------->
-        
-        
 
     </main>
     <!----------x--- Main site section --------x------------->
@@ -73,3 +58,4 @@
     <!-- Javascript section -->
     <script src="./js/main.js"></script>
 </asp:Content>
+

@@ -1,70 +1,57 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="CICS.admin.Index" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="CICS.admin.Index" %>
 
-<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div class ="container ">
-		<!-- Navbar Start -->
-		<div class="header">
-            <nav class="navbar navbar-right ">
-                <a class="brand-logo" href="#">
-                    <img src="../images/Logo.png">
-                    
-                </a>
-                
-                <div > 
-                  <ul >
-                   
-                    <li class="list-inline-item" >
-                        <a class="nav-link" id="navlinks" href="#">Manage Accounts</a>
-                    </li>
-                    <li class="list-inline-item" >
-                        <a class="nav-link" id="navlinks" href="#">Username</a>
-                    </li>
-                  </ul>
-                  
-                </div>
-              </nav>
-        </div>
-		<!-- Navbar Stop -->
-		<div class="row">
-			<div class="col-md-7">
-				<h1 class="text-left">Cassava Image Classification System</h1>
-				<p class="text-left">
-                    The primary benefit the Single-Responsibility Principle gives 
-                    you is high-cohesion, low-coupling code. Cohesion refers to 
-                    the degree with which elements of code belong together. 
-                </p>
-				<p class="text-left">Coupling is the manner of independence between modules of a programming system. 
-					This means that high coupling means that modules are more dependent upon one another, 
-					and low coupling means they are less dependent.</p>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+     <!------------- Main site section --------------------->
+
+    <main>
+
+        <!-------------- Site title  ----------------->
+        <section class="site-title">
+           <div class="add-user">
+			
+			    <div >
+                    <a class="btn" href="#add-user">ADD USER</a>
+				    
+			    </div>
 			</div>
-			<div class="col-md-5">
+			<div class="deactivate-user">
+				
+				
+
+                     <div >
+                         
+						<a class="btn" href="#deactivate-user">DEACTIVATE USER</a>
+					</div>
+                </div>
+               
+              
+				
+        </section>
+        <!---------x--- Site title ---------x--------->
+
+        <!-------------- Site Add User  ----------------->
+        <section class="site-title" id="add-user">
+           <div class="login">
 				
 				<!-- close -->
 				<!-- make another column for textbox and label -->
 				<div class="inputs">
-                    <div class="row">
-                        <label class="label col-md-12 control-label">Username</label>
+                    <div >
+                        <label >Username</label>
                         
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
+                    <div >
+                        <div >
                             <input type="text"	class="form-control" name="Username" placeholder="username">
                         </div>
                     </div>
-                    
-                    <div class="row">
-                        <label class="label col-md-12 control-label">User Role</label>
+                    <div >
+                        <label >User Role</label>
                         
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
+                    <div >
+                        <div >
                             <select class="form-control">
                                 <option>Admin</option>
                                 <option>Annotator</option>
@@ -75,55 +62,89 @@
                         </div>
                     </div>
                     <div class="row">
-                        <label class="label col-md-12 control-label">Phone</label>
+                        <label ">Phone</label>
                         
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
+                    <div >
+                        <div >
                             <input type="text"	class="form-control" name="Phone" placeholder="e.g +256 760 454 638">
                         </div>
                     </div>
-                </div>
-                <div class="row">
-					
-					<div class="col-md-12 login">
-						<a href="#"><div class="btn btn-info btn-block">Add User</div></a>
-					</div>
-				</div>
-				
-			</div>
-        </div>
-        
-    </div>
-    <!-- Footer -->
-<footer  class="footer">
 
-    <!-- Footer Elements -->
-    <div class="container">
+                     <div >
+						<button class="btn">ADD USER</button>
+					</div>
+                </div>
+               
+                 
+                   
+                </div>
+               
+              
+				
+        </section>
+        <!---------x--- Site Add User ---------x--------->
+
+
+        <!-------------- Site Add User ------------------>
+
+        <section class="site-title" id="deactivate-user">
+            <div class="blog">
+                <div class="container">
+                    <h1>Active Users</h1>
+                    <div class="owl-carousel owl-theme blog-post flex-row">
+                        <div class="page-content">
+                            <img class="two" src="../images/cassava.png" alt="post-1" width="300" height="200">
+                            <div class="blog-title">
+                                <button class="btn ">DEACTIVATE</button>
+                                <span>200 images annotated</span>
+                            </div>
+                        </div>
+                        <div class="page-content">
+                            <img class="two" src="../images/cassava.png" alt="post-2" width="300" height="200">
+                            <div class="blog-title">
+                                <button class="btn ">DEACTIVATE</button>
+                                <span>200 images annotated</span>
+                            </div>
+                        </div>
+                        <div class="page-content">
+                            <img class="two" src="../images/cassava.png" alt="post-3" width="300" height="200">
+                            <div class="blog-title">
+                                <button class="btn ">DEACTIVATE</button>
+                                <span>200 images annotated</span>
+                            </div>
+                        </div>
+                        <div class="page-content">
+                            <img class="two" src="../images/cassava.png" alt="post-4" width="300" height="200">
+                            <div class="blog-title">
+                                <button class="btn ">DEACTIVATE</button>
+                                <span>200 images annotated</span>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+        <!---------x--- Site Add User ---------x--------->
         
-      <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-            <a href="#">About Us</a>
-        </li>
-        <li class="list-inline-item">
-            <a href="#">Contact</a>
-        </li>
-        <li class="list-inline-item">
-            &copy; 2020 Copyright:<a href="#"> HarvestMore.com</a>
-        </li>
+
         
-      </ul>
-      
-    </div>
-    <!-- Footer Elements -->
-  
-    <!-- Copyright -->
-    <div >
-    </div>
-    <!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
-    </form>
-</body>
-</html>
+
+    </main>
+    <!----------x--- Main site section --------x------------->
+    
+    <!-- jquery section -->
+    <script src="./js/jquery3.5.1.min.js"></script>
+    
+    <!-------------------- Owl Carousel JS --------------------->
+    
+    <script src="./js/owl.carousel.min.js"></script>
+
+     <!-------------------- Owl Carousel JS --------------------->
+    
+    <!-- Javascript section -->
+    <script src="./js/main.js"></script>
+   
+
+</asp:Content>

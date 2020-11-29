@@ -1,207 +1,47 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="CICS.annotator.Index" %>
+﻿<%@ Page Title="Annotator Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="CICS.annotator.Index" %>
 
-<!DOCTYPE html>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>HarvestMore</title>
-    <link rel="stylesheet" href="../Content/Bootstrap.css">
-	<!-- <link rel="stylesheet" href="js/Bootstrap.js">   -->
-	<link rel="stylesheet" href="../Content/style.css">
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div class ="container ">
-		<!-- Navbar Start -->
-		<div class="header">
-            <nav class="navbar navbar-right ">
-                <a class="brand-logo" href="#">
-                    <img src="../images/Logo.png">
-                    
-                </a>
-                
-                <div > 
-                  <ul >
-                    
-                    <li class="list-inline-item" >
-                      <a class="nav-link" id="navlinks" href="#">Uploads</a>
-                    </li>
-                    <li class="list-inline-item" >
-                        <a class="nav-link" id="navlinks" href="#">Annotations</a>
-                    </li>
-                    <li class="list-inline-item" >
-                        <a class="nav-link" id="navlinks" href="#">Notifications</a>
-                    </li>
-                    <li class="list-inline-item" >
-                        <a class="nav-link" id="navlinks" href="#">Username</a>
-                    </li>
-                  </ul>
-                  
-                </div>
-              </nav>
-        </div>
-		<!-- Navbar Stop -->
-		<div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-                
-                <div class="row">
-                    <div class="container-fluid tm-container-content tm-mt-60">
-                        <div class="row mb-4">
-                            <h2 class="col-6 text-center">
-                                Latest Uploads
-                            </h2>
-                            
+<main>
+    <section >
+            <div class="blog">
+                <div class="container">
+                    <h1>Uploaded images</h1>
+                    <div class="owl-carousel owl-theme blog-post flex-row">
+                        <div class="page-content">
+                            <img class="two" src="../images/cassava.png" alt="post-1" width="300" height="200">
+                            <div class="blog-title">
+                                <button class="btn ">DOWNLOAD</button>
+                                <span>200 views</span>
+                            </div>
                         </div>
-                        <div class="row tm-mb-90 tm-gallery">
-                            <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                                <figure class="effect-ming tm-video-item">
-                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
-                                                      
-                                </figure>
-                                <div >
-                                    <a href="#"><div class="btn btn-info btn-block">DOWNLOAD</div></a>
-                                </div>
-                                <div class="d-flex justify-content-between tm-text-gray">
-                                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                                    <span>9,906 views</span>
-                                </div>
+                        <div class="page-content">
+                            <img class="two" src="../images/cassava.png" alt="post-2" width="300" height="200">
+                            <div class="blog-title">
+                                <button class="btn ">DOWNLOAD</button>
+                                <span>200 views</span>
                             </div>
-                            
-                            <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                                <figure class="effect-ming tm-video-item">
-                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
-                                                        
-                                </figure>
-                                <div >
-                                    <a href="#"><div class="btn btn-info btn-block">DOWNLOAD</div></a>
-                                </div>
-                                <div class="d-flex justify-content-between tm-text-gray">
-                                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                                    <span>9,906 views</span>
-                                </div>
+                        </div>
+                        <div class="page-content">
+                            <img class="two" src="../images/cassava.png" alt="post-3" width="300" height="200">
+                            <div class="blog-title">
+                                <button class="btn ">DOWNLOAD</button>
+                                <span>200 views</span>
                             </div>
-                            <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                                <figure class="effect-ming tm-video-item">
-                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
-                                                       
-                                </figure>
-                                <div >
-                                    <a href="#"><div class="btn btn-info btn-block">DOWNLOAD</div></a>
-                                </div>
-                                <div class="d-flex justify-content-between tm-text-gray">
-                                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                                    <span>9,906 views</span>
-                                </div>
+                        </div>
+                        <div class="page-content">
+                            <img class="two" src="../images/cassava.png" alt="post-4" width="300" height="200">
+                            <div class="blog-title">
+                                <button class="btn ">DOWNLOAD</button>
+                                <span>200 views</span>
                             </div>
-                            <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                                <figure class="effect-ming tm-video-item">
-                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
-                                                        
-                                </figure>
-                                <div >
-                                    <a href="#"><div class="btn btn-info btn-block">DOWNLOAD</div></a>
-                                </div>
-                                <div class="d-flex justify-content-between tm-text-gray">
-                                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                                    <span>9,906 views</span>
-                                </div>
-                            </div>  
-                            <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                                <figure class="effect-ming tm-video-item">
-                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
-                                                        
-                                </figure>
-                                <div >
-                                    <a href="#"><div class="btn btn-info btn-block">DOWNLOAD</div></a>
-                                </div>
-                                <div class="d-flex justify-content-between tm-text-gray">
-                                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                                    <span>9,906 views</span>
-                                </div>
-                            </div> 
-                            <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                                <figure class="effect-ming tm-video-item">
-                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
-                                                       
-                                </figure>
-                                <div >
-                                    <a href="#"><div class="btn btn-info btn-block">DOWNLOAD</div></a>
-                                </div>
-                                <div class="d-flex justify-content-between tm-text-gray">
-                                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                                    <span>9,906 views</span>
-                                </div>
-                            </div> 
-                            <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                                <figure class="effect-ming tm-video-item">
-                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
-                                                      
-                                </figure>
-                                <div >
-                                    <a href="#"><div class="btn btn-info btn-block">DOWNLOAD</div></a>
-                                </div>
-                                <div class="d-flex justify-content-between tm-text-gray">
-                                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                                    <span>9,906 views</span>
-                                </div>
-                            </div> 
-                            <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                                <figure class="effect-ming tm-video-item">
-                                    <img src="../images/cassava.png" alt="Image" class="img-fluid">
-                                                      
-                                </figure>
-                                <div >
-                                    <a href="#"><div class="btn btn-info btn-block">DOWNLOAD</div></a>
-                                </div>
-                                <div class="d-flex justify-content-between tm-text-gray">
-                                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                                    <span>9,906 views</span>
-                                </div>
-                            </div> 
-                                   
-                        </div> <!-- row -->
-                        
-                    </div> 
+                        </div>
+                    </div>  
                 </div>
             </div>
+        </section>
 
-            
-             
-        </div>
-            
-        </div>
         
-    </div>
-    <!-- Footer -->
-<footer  class="footer">
+</main>
 
-    <!-- Footer Elements -->
-    <div class="container">
-        
-      <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-            <a href="#">About Us</a>
-        </li>
-        <li class="list-inline-item">
-            <a href="#">Contact</a>
-        </li>
-        <li class="list-inline-item">
-            &copy; 2020 Copyright:<a href="#"> HarvestMore.com</a>
-        </li>
-        
-      </ul>
-      
-    </div>
-    <!-- Footer Elements -->
-  
-    <!-- Copyright -->
-    <div >
-    </div>
-    <!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
-    </form>
-</body>
-</html>
+</asp:Content>

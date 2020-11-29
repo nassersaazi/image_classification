@@ -58,8 +58,27 @@
                 <div>
                     <ul class="nav-items">
                         <li class="nav-link">
-                            <a href="#">Register</a>
+                            <a href="../Register.aspx">Register</a>
                         </li>
+                        <li class="nav-link" >
+                            <a href="#">Manage Accounts</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">Uploads</a>
+                        </li>
+                        <li  class="nav-link">
+                            <a  href="#">Annotations</a>
+                        </li>
+                        <li class="nav-link">
+                            <a  href="#">Notifications</a>
+                        </li>
+                        <li class="nav-link" >
+                            <a href="#">About</a>
+                        </li>
+                        <li class="nav-link" >
+                            <a href="#">Contact</a>
+                        </li>
+                   
                      
                     </ul>
                 </div>

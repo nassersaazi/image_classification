@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CICS.admin {
+namespace CICS {
     
     
-    public partial class Login {
+    public partial class Register {
     }
 }
