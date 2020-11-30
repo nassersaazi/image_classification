@@ -1,61 +1,70 @@
-﻿<%@ Page Title="Login Page" Language="C#"  MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="CICS.Logic" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="CICS.Login" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link href="style.css" rel="stylesheet"/>
+    <link href="join.css" rel="stylesheet"/>
+    <title>HarvestMore - Login</title>
+</head>
+<body class="full-height-grow">
+     <div class="container full-height-grow">
+    <header class="main-header">
+      <a href="/" class="brand-logo">
+        <%--<img src="images/logo.png"/>--%>
+        <div class="brand-logo-name">HarvestMore</div>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="discover.html">Register</a></li>
+         
+        </ul>
+      </nav>
+    </header>
+    <section class="join-main-section">
+      <h1 class="join-text">
+        Cassava Image Classification System
+      </h1>
+      <form class="join-form" id="form1" runat="server">
+        <div class="input-group">
+          <label>User Name:</label>
+          <input type="text"/>
+        </div>
+        <%--<div class="input-group">
+          <label>Email:</label>
+          <input type="email"/>
+        </div>--%>
+        <div class="input-group">
+          <label>Password:</label>
+          <input type="password"/>
+        </div>
+        <div class="input-group">
+          <button type="submit" class="btn">LOGIN</button>
+        </div>
+      </form>
+    </section>
+  </div>
+
+    <div class="join-page-circle-1"></div>
+  <div class="join-page-circle-2"></div>
+
    
+    <footer class="main-footer">
+    <div class="container">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+     
+    </div>
+  </footer>
+</body>
+</html>
 
-    <!------------- Main site section --------------------->
-
-    <main>
-      <!-------------- Site title  ----------------->
-        <section class="site-title" id="login">
-          
-			<div class="login">
-				
-				<!-- close -->
-				<!-- make another column for textbox and label -->
-				<div class="inputs">
-                    <div >
-                        <label >Username</label>
-                        
-                    </div>
-                    <div >
-                        <div >
-                            <input type="text"	class="form-control" name="Username" placeholder="username">
-                        </div>
-                    </div>
-                    <div>
-                        <label class="label col-md-12 control-label">Password</label>
-                        
-                    </div>
-                    <div>
-                        <div >
-                            <input type="password"	class="form-control" name="Password" placeholder="Password">
-                            
-                        </div>
-                    </div>
-                    <div >
-						<a class="btn" href="admin/Index.aspx">Login</a>
-					</div>
-                </div>
-              
-				
-			</div>
-        </section>
-        <!---------x--- Site title ---------x--------->
-
-    </main>
-    <!----------x--- Main site section --------x------------->
-    
-    <!-- jquery section -->
-    <script src="./js/jquery3.5.1.min.js"></script>
-    
-    <!-------------------- Owl Carousel JS --------------------->
-    
-    <script src="./js/owl.carousel.min.js"></script>
-
-     <!-------------------- Owl Carousel JS --------------------->
-    
-    <!-- Javascript section -->
-    <script src="./js/main.js"></script>
-</asp:Content>
 

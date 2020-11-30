@@ -1,0 +1,15 @@
+﻿30.11.2020
+
+TODOS today
+finish all the user interfaces with dummy data
+- admin..........not done
+- annotator......not done
+- farmer.........not done
+- official.......not done
+
+connect to db and establish connection for user logins
+
+
+implement sessions and filter according to user roles
+
+connect to api with and render images, send sms and make payments

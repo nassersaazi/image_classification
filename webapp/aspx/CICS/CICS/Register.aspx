@@ -1,92 +1,73 @@
-﻿<%@ Page  Title="Register Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="CICS.Register" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="CICS.Register" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link href="style.css" rel="stylesheet"/>
+    <link href="join.css" rel="stylesheet"/>
+    <title>HarvestMore - Join</title>
+</head>
+<body class="full-height-grow">
+     <div class="container full-height-grow">
+    <header class="main-header">
+      <a href="/" class="brand-logo">
+        <%--<img src="images/logo.png"/>--%>
+        <div class="brand-logo-name">HarvestMore</div>
+      </a>
+      
+    </header>
+    <section class="join-main-section">
+      <h1 class="join-text">
+        Cassava Image Classification System
+      </h1>
+      <form class="join-form" id="form1" runat="server">
+        <div class="input-group">
+          <label>User Name:</label>
+          <input type="text"/>
+        </div>
+        <div class="input-group">
+          <label>Email:</label>
+          <input type="email"/>
+        </div>
+          <div class="input-group">
+          <label>Area:</label>
+          <input type="text"/>
+        </div>
+
+          <div class="input-group">
+          <label>Phone:</label>
+          <input type="text"/>
+        </div>
+        <div class="input-group">
+          <label>Password:</label>
+          <input type="password"/>
+        </div>
+        <div class="input-group">
+          <button type="submit" class="btn">REGISTER</button>
+        </div>
+      </form>
+    </section>
+  </div>
+
+    <div class="join-page-circle-1"></div>
+  <div class="join-page-circle-2"></div>
+
    
+    <footer class="main-footer">
+    <div class="container">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+     
+    </div>
+  </footer>
+</body>
+</html>
 
-    <!------------- Main site section --------------------->
-
-    <main>
-
-
-        <!-------------- Site title  ----------------->
-        <section class="site-title" id ="register">
-           <div class="description">
-			
-				<h1 >Cassava Image Classification System</h1>
-				<p >
-                    The primary benefit the Single-Responsibility Principle gives 
-                    you is high-cohesion, low-coupling code. 
-                </p>
-                <p>Cohesion refers to the degree with which elements of code belong together. </p>
-				<p>Coupling is the manner of independence between modules of a programming system. 
-					</p>
-               <p>This means that high coupling means that modules are more dependent upon one another.</p>
-			</div>
-			<div class="login">
-				
-				<!-- close -->
-				<!-- make another column for textbox and label -->
-				<div class="inputs">
-                    <div >
-                        <label >Username</label>
-                        
-                    </div>
-                    <div >
-                        <div >
-                            <input type="text"	class="form-control" name="Username" placeholder="username">
-                        </div>
-                    </div>
-                    <div >
-                        <label >Email</label>
-                        
-                    </div>
-                    <div >
-                        <div >
-                            <input type="email"	class="form-control" name="Email" placeholder="email">
-                        </div>
-                    </div>
-                    <div >
-                        <label >Area</label>
-                        
-                    </div>
-                    <div >
-                        <div >
-                            <input type="text"	class="form-control" name="Area" placeholder="area">
-                        </div>
-                    </div>
-                    <div >
-                        <label >Phone</label>
-                        
-                    </div>
-                    <div >
-                        <div >
-                            <input type="text"	class="form-control" name="Phone" placeholder="phone">
-                        </div>
-                    </div>
-                    <div >
-						<a class="btn" href="../login.aspx">REGISTER</a>
-					</div>
-                </div>
-              
-				
-			</div>
-        </section>
-        <!---------x--- Site title ---------x--------->
-        
-       
-
-    </main>
-    <!----------x--- Main site section --------x------------->
-    
-    <!-- jquery section -->
-    <script src="./js/jquery3.5.1.min.js"></script>
-    
-    <!-------------------- Owl Carousel JS --------------------->
-    
-    <script src="./js/owl.carousel.min.js"></script>
-
-     <!-------------------- Owl Carousel JS --------------------->
-    
-    <!-- Javascript section -->
-    <script src="./js/main.js"></script>
-</asp:Content>
