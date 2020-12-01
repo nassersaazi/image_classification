@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace CICS
+namespace CICS.official
 {
-    public partial class Login1 : System.Web.UI.Page
+    public partial class Reports : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

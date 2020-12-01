@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CICS.annotator {
+namespace CICS.admin {
     
     
-    public partial class Notifications {
+    public partial class DeactivateUser {
     }
 }

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="CICS.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="CICS.Login1" %>
 
 <!DOCTYPE html>
 
@@ -20,7 +20,7 @@
       </a>
       <nav class="main-nav">
         <ul>
-          <li><a href="discover.html">Register</a></li>
+          <li><a href="Register.aspx">Register</a></li>
          
         </ul>
       </nav>
@@ -29,15 +29,11 @@
       <h1 class="join-text">
         Cassava Image Classification System
       </h1>
-      <form class="join-form" id="form1" runat="server">
+      <form class="join-form" id="form2" runat="server">
         <div class="input-group">
           <label>User Name:</label>
           <input type="text"/>
         </div>
-        <%--<div class="input-group">
-          <label>Email:</label>
-          <input type="email"/>
-        </div>--%>
         <div class="input-group">
           <label>Password:</label>
           <input type="password"/>
@@ -66,5 +62,4 @@
   </footer>
 </body>
 </html>
-
 

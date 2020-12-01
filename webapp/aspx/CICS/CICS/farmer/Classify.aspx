@@ -32,7 +32,7 @@
         <div  class="image-section">
         <h1>Classification</h1>
 	
-        <figure class="effect-ming tm-video-item">
+        <figure >
             <img src="../images/cassava.png" alt="Image"  width="300" height="200"/>
                                             
         </figure>
@@ -65,23 +65,3 @@
 </body>
 </html>
 
-
-
- <%--<div >
-				        <h1 class="text-center">Classification</h1>
-				        <div >
-                            <figure class="effect-ming tm-video-item">
-                                <img src="../images/cassava.png" alt="Image" class="img-fluid" width="300" height="200">
-                                            
-                            </figure>
-                            <p ><span>class: <b>CMD</b></span></p>
-                            <p >
-                                The primary benefit the Single-Responsibility Principle gives 
-                                you is high-cohesion, low-coupling code. Cohesion refers to 
-                                the degree with which elements of code belong together. 
-                            </p>
-                        </div>
-                     
-                    </div>--%>
-
-  

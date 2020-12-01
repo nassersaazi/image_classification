@@ -1,105 +1,73 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Notifications.aspx.cs" Inherits="CICS.farmer.Notifications" %>
+﻿<%@ Page Title="Farmer Notifications Page" Language="C#" AutoEventWireup="true" CodeBehind="Notifications.aspx.cs" Inherits="CICS.farmer.Notifications" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>HarvestMore</title>
-    <link rel="stylesheet" href="../Content/Bootstrap.css">
-	<!-- <link rel="stylesheet" href="js/Bootstrap.js">   -->
-	<link rel="stylesheet" href="../Content/style.css">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link href="../style.css" rel="stylesheet"/>
+    <link href="../join.css" rel="stylesheet"/>
+    <title>HarvestMore - Index</title>
 </head>
-<body>
-    <form id="form1" runat="server">
-    <div class ="container ">
-		<!-- Navbar Start -->
-		<div class="header">
-            
-            <nav class="navbar">
-                
-                <a class="brand-logo" href="#">
-                    <img src="../images/Logo.png">
-                    
-                </a>
-                <div > 
-                  <ul class="list-inline">
-                    
-                    <li  >
-                      <a href="#">Home</a>
-                    </li>
-                    <li  >
-                        <a  href="#">Uploads</a>
-                    </li>
-                    <li  >
-                        <a href="#">Notifications</a>
-                    </li>
-                    <li  >
-                        <a  href="#">Username</a>
-                    </li>
-                  </ul>
-                  
-                </div>
-              </nav>
-        </div>
-		<!-- Navbar Stop -->
-		<div class="row">
-            <div class="col-md-3">
-
-            </div>
-			<div class="col-md-6" id="main-section">
-				<h3 class="text-center">Increased prevalence of CMD in Wakiso</h3>
-				<p class="text-center">
+<body class="full-height-grow">
+     <div class="container full-height-grow">
+    <header class="main-header">
+      <a href="/" class="brand-logo">
+        <%--<img src="images/logo.png"/>--%>
+        <div class="brand-logo-name">HarvestMore</div>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Uploads</a></li>
+          <li><a href="#">Notifications</a></li>
+          <li><a href="#">Logout</a></li>  
+        </ul>
+      </nav>
+    </header>
+    <section >
+        <div class="description" id="main-section">
+				<h3 >Increased prevalence of CMD in Wakiso</h3>
+				<p >
                     The primary benefit the Single-Responsibility Principle gives 
                     you is high-cohesion, low-coupling code. Cohesion refers to 
                     the degree with which elements of code belong together. 
                 </p>
-                <br>
-                <h3 class="text-center">Upcoming conference about CBSD in Mbale</h3>
-				<p class="text-center">Coupling is the manner of independence between modules of a programming system. 
+                <br/>
+                <h3 >Upcoming conference about CBSD in Mbale</h3>
+				<p >Coupling is the manner of independence between modules of a programming system. 
 					This means that high coupling means that modules are more dependent upon one another, 
                     and low coupling means they are less dependent.
                 </p>
-                <br>
-                <h3 class="text-center">President Museveni to visit farmers in Arua</h3>
-				<p class="text-center">Coupling is the manner of independence between modules of a programming system. 
+                <br/>
+                <h3 >President Museveni to visit farmers in Arua</h3>
+				<p>Coupling is the manner of independence between modules of a programming system. 
 					This means that high coupling means that modules are more dependent upon one another, 
                     and low coupling means they are less dependent.
                 </p>
                      
             </div>
-            
-        </div>
-        
-    </div>
-    <!-- Footer -->
-<footer  class="footer">
+     
+    </section>
+  </div>
 
-    <!-- Footer Elements -->
+    <div class="join-page-circle-1"></div>
+  <div class="join-page-circle-2"></div>
+
+   
+    <footer class="main-footer">
     <div class="container">
-        
-      <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-            <a href="#">About Us</a>
-        </li>
-        <li class="list-inline-item">
-            <a href="#">Contact</a>
-        </li>
-        <li class="list-inline-item">
-            &copy; 2020 Copyright:<a href="#"> HarvestMore.com</a>
-        </li>
-        
-      </ul>
-      
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+     
     </div>
-    <!-- Footer Elements -->
-  
-    <!-- Copyright -->
-    <div >
-    </div>
-    <!-- Copyright -->
-  
   </footer>
-  <!-- Footer -->
-    </form>
 </body>
 </html>
+

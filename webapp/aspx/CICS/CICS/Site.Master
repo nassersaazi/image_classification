@@ -11,8 +11,9 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="style.css" rel="stylesheet"/>
+    <link href="join.css" rel="stylesheet"/>
+    <%--<webopt:bundlereference runat="server" path="~/Content/css" />--%>
     
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
@@ -41,12 +42,12 @@
         </asp:ScriptManager>
 
             <!-- Navigation -->
-        <nav class="nav">
-            <div class="nav-menu flex-row">
-                <div class="nav-brand">
+        <%--<nav class="navigation">
+            <div class="navigation-menu flex-row">
+                <div class="navigation-brand">
                     <a class="brand-logo" href="#">
                      <%--<img src="../images/Logo.png" width="150" height="50">--%>
-                        <h3 class="brand-logo">HarvestMore</h3>
+                 <%--       <h3 class="brand-logo">HarvestMore</h3>
                     </a>
                     
                 </div>
@@ -56,26 +57,26 @@
                     </div>
                 </div>
                 <div>
-                    <ul class="nav-items">
-                        <li class="nav-link">
-                            <a href="../Register.aspx">Register</a>
+                    <ul class="navigation-items">
+                        <li class="navigation-link">
+                            <a class="nav-link" href="../Register.aspx">Register</a>
                         </li>
-                        <li class="nav-link" >
+                        <li class="navigation-link" >
                             <a href="#">Manage Accounts</a>
                         </li>
-                        <li class="nav-link">
+                        <li class="navigation-link">
                             <a href="#">Uploads</a>
                         </li>
-                        <li  class="nav-link">
+                        <li  class="navigation-link">
                             <a  href="#">Annotations</a>
                         </li>
-                        <li class="nav-link">
+                        <li class="navigation-link">
                             <a  href="#">Notifications</a>
                         </li>
-                        <li class="nav-link" >
+                        <li class="navigation-link" >
                             <a href="#">About</a>
                         </li>
-                        <li class="nav-link" >
+                        <li class="navigation-link" >
                             <a href="#">Contact</a>
                         </li>
                    
@@ -83,7 +84,7 @@
                     </ul>
                 </div>
                 <div class="social text-gray">
-                    <a href="#">Username</a>
+                    <a class="nav-link" href="#">Username</a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>
@@ -91,8 +92,22 @@
                 </div>
             </div>
         
-        </nav>
-
+        </nav>--%>
+        <div class="container full-height-grow">
+    <header class="main-header">
+      <a href="/" class="brand-logo">
+        <%--<img src="images/logo.png"/>--%>
+        <div class="brand-logo-name">HarvestMore</div>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          
+          <li><a href="#">Logout</a></li>  
+        </ul>
+      </nav>
+    </header>
+        
+        </div>
         <!-- Navigation -->
 
       <%--  <div class="navbar navbar-inverse navbar-fixed-top">

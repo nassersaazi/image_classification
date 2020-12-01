@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CICS.farmer {
+namespace CICS.official {
     
     
-    public partial class Index {
+    public partial class Reports {
     }
 }
