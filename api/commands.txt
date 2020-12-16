@@ -1,0 +1,17 @@
+#run this the first time you are building the image
+docker build -t todo-api:latest .
+
+#run this to check the list of containers on your machine
+docker container ps -a
+
+#run this to monitor activity within your container(in this case flask-api is the container name)
+docker logs flask_api
+
+
+docker-compose up -d 
+ 
+docker image ls      
+
+docker rmi $(docker images -q --filter "dangling=true") 
+
+docker exec -it ml_models "bash"

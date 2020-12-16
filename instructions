@@ -1,0 +1,16 @@
+api
+
+build image using Dockerfile in todo-api folder
+go to api folder
+spin up docker compose --ensure volumes map to the right folder
+ensure all files in container have all permissions(chmod -R 777 ./)
+install tensorflow in bash shell of the container
+fire up api container
+run python3 client.py to send a post request with an image and get classification response
+
+model
+
+build image using Dockerfile in model folder
+spin up docker compose --ensure volumes map to the right folder(don't run any cells)
+
+

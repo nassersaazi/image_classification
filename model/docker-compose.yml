@@ -1,0 +1,10 @@
+version: "3"
+services:
+    notebooks:
+      container_name: ml_models
+      image: finalyearmodel:1.0
+      volumes:
+          - /home/saazi/Documents/EndJahrProjekt/model:/src/notebooks
+      ports:
+        - "8891:8888"
+      

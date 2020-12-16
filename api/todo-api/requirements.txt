@@ -1,0 +1,8 @@
+flask
+flask_restful
+flask_httpauth
+numpy
+opencv-python==3.4.8.29
+pandas
+Pillow
+jsonpickle

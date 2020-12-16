@@ -1,0 +1,7 @@
+final
+model/data
+model/cassava_images
+*.pyc
+api/todo-api/data
+api/todo-api/pycache
+model/tf_cache
